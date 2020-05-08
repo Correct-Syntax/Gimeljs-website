@@ -1,3 +1,10 @@
+/**
+ * --------------------------------------------------------------------------
+ * JS for website using Gimel.js (c) 2020 Noah Rahm.
+ * Licensed under BSD 3-Clause
+ * --------------------------------------------------------------------------
+ */
+
 $g.fadeIn("#heroHeader", "translate", "(-14rem, -4rem)");
 $g.fadeIn(".code-block", "rotate3d", "(2, 14, 5, -300deg)");
 
@@ -13,5 +20,5 @@ $g.when("window", "load", function() {
 });
 
 $g.whenScrollTo("#includejs", function() {
-  $g.fadeInStart(".code-block" , "rotate3d", 2);
+  $g.fadeInStart(".code-block", "rotate3d", 2);
 });
