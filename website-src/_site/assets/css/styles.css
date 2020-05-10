@@ -1,7 +1,68 @@
 /** -------------------------------------------------------------------------- CSS for website (c) 2020 Noah Rahm. Licensed under BSD 3-Clause -------------------------------------------------------------------------- */
 body { width: 100%; height: 100%; margin: 0px; padding: 0px; overflow-x: hidden; }
 
-.main-sidebar { z-index: 3; background: #939393; box-shadow: 0px 1px 50px rgba(100, 100, 100, 0.5); }
+.sidebar-section {  
+    background: transparent; 
+    padding-right: 15px;
+    padding-top: 8px;
+    z-index: 1001;
+    position: fixed;
+    right: 0;
+}
+
+.main-sidebar {
+    background: #545454; padding: 2rem 1rem;
+    width: 300px;
+    height: 100%;
+    z-index: 1000;
+    position: fixed;
+    right: 0;
+    box-shadow: 0px 1px 50px rgba(100, 100, 100, 0.5);
+}
+
+.main-sidebar .sidebar-list {
+    padding: 1rem 2rem;
+}
+
+.main-sidebar .sidebar-list li {
+    list-style: none;
+    font-family: "Open Sans"; font-weight: 700;
+    padding: .5rem 1rem;
+}
+
+.main-sidebar .sidebar-list li a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.main-sidebar .sidebar-list li a:hover {
+    color: #0fa3b1;
+    text-shadow: -4px 7px rgba(68, 68, 68, 0.5);
+}
+
+.svg-small {
+    width: 25px;
+    height: 25px;
+}
+
+.svg-medium {
+    width: 40px;
+    height: 40px;
+}
+
+.svg-medium:hover {
+    cursor: pointer;
+}
+
+.repo-btn {
+    border: white solid 1px;
+}
+
+.repo-btn:hover {
+    background: #0fa3b1;
+    box-shadow: -4px 7px rgba(68, 68, 68, 0.5);
+}
 
 /* HERO SECTION */
 .hero-section { padding: 8rem 0rem 8rem 0rem; }
@@ -75,5 +136,3 @@ a.hero-cta-btn-outline:hover { background: #c5c4c4; }
 @media (min-width: 992px) and (max-width: 1199.98px) { .headline-header { font-size: 9.3rem; } .headline-header-md { font-size: 3.7rem; } .headline-subheader { font-size: 1.8rem; } .get-started-section .step1-section { margin-left: 7rem; } .get-started-section .step2-section { margin-left: 8rem; } .get-started-section .step3-section { margin-left: 13rem; } }
 
 @media (min-width: 1200px) { .headline-header { font-size: 10.3rem; } .headline-header-md { font-size: 4.2rem; } .headline-subheader { font-size: 2rem; } .get-started-section .step1-section { margin-left: 6rem; } .get-started-section .step2-section { margin-left: 9rem; } .get-started-section .step3-section { margin-left: 15rem; } }
-
-/*# sourceMappingURL=styles.css.map */

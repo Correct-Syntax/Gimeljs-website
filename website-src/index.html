@@ -3,23 +3,24 @@ title: Home
 layout: default
 ---
 
-<div class="col-12 hero-section">
-
+<div class="sidebar-section">
   <div class="row">
-<!--     <div class="main-sidebar">
-        <div class="row">
-            <div class="col-4">
-                <button id="openButton" class="sidebar-open-btn">Toggle</button>
-
-            </div>
-            <div class="col-8">
-                <h3 id="gimel" class="gimel"></h3>
-
-            </div>
-        </div>
-
-        
-    </div> -->
+    <div class="col-12">
+      <a id="openSidebarButton"><svg class="svg-medium" fill="#545454" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"/></svg></a>
+    </div>
+  </div>
+</div> 
+<div class="main-sidebar">
+    <a id="closeSidebarButton"><svg class="svg-medium" xmlns="http://www.w3.org/2000/svg" fill="#808080" viewBox="0 0 352 512"><path d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"/></svg></a>
+    <ul class="sidebar-list">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#download">Download</a></li>
+        <li><a href="#template">Template</a></li>
+        <li><a href="#docs">Documentation</a></li>
+    </ul>
+</div>
+<div class="col-12 hero-section">
+  <div class="row">
     <div class="col-12 hero">
         <div class="row">
             <div class="col-12">
@@ -84,7 +85,7 @@ layout: default
       </div>
     </div>
   </div>
-
+  <div id="download"></div>
   <div class="row step1-section">
     <div class="col-12 col-md-4">
       <h4 class="headline-subheader headline-no-shadow">1. Download Gimel.js</h4>
@@ -125,7 +126,7 @@ layout: default
       </div>
     </div>
   </div>
-  <div id="includejs"></div>
+  <div id="template"></div>
   <div class="row step2-section">
     <div class="col-12 col-md-4">
       <h4 class="headline-subheader headline-no-shadow">2. Include Gimel.js</h4>
@@ -149,7 +150,7 @@ layout: default
 &lt;/<span class="code-html-elem">html</span>&gt; </pre></code> 
     </div>
   </div>
-
+  <div id="docs"></div>
   <div class="row step3-section">
     <div class="col-12">
       <h4 class="headline-subheader headline-no-shadow">3. Download the Docs & Examples</h4>
