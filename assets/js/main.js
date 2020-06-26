@@ -15,7 +15,9 @@ $g.when("window", "load", function() {
         $g.typingEffect(
             "#heroSubheader", 
             "Free & Open-Source Javascript Library for DOM Manipulation & Effects",
-            30
+            30,
+            "|",
+            "#fff"
         );
     });
 });
