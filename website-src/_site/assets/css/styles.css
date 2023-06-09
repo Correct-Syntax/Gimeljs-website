@@ -26,7 +26,7 @@ body { width: 100%; height: 100%; margin: 0px; padding: 0px; overflow-x: hidden;
 
 .main-sidebar .sidebar-list li {
     list-style: none;
-    font-family: "Open Sans"; font-weight: 700;
+    font-weight: 700;
     padding: .5rem 1rem;
 }
 
@@ -75,9 +75,9 @@ a.hero-cta-btn-outline { padding: 1rem 4rem; border: solid 1px #808080; backgrou
 
 a.hero-cta-btn-outline:hover { background: #c5c4c4; }
 
-.headline-header-md, .headline-header { color: #545454; text-shadow: -5px 8px rgba(100, 100, 100, 0.5); font-family: "Open Sans"; font-weight: 700; text-transform: capitalize; z-index: 1; margin-left: 2rem; }
+.headline-header-md, .headline-header { color: #545454; text-shadow: -5px 8px rgba(100, 100, 100, 0.5); font-weight: 700; text-transform: capitalize; z-index: 1; margin-left: 2rem; }
 
-.headline-subheader { color: white; text-shadow: -4px 7px rgba(100, 100, 100, 0.5); font-family: "Open Sans"; font-weight: 700; }
+.headline-subheader { color: white; text-shadow: -4px 7px rgba(100, 100, 100, 0.5); font-weight: 700; }
 
 .headline-no-shadow { text-shadow: none; }
 
@@ -90,9 +90,9 @@ a.hero-cta-btn-outline:hover { background: #c5c4c4; }
 /* FEATURES SECTION */
 .features-section { padding: 4rem 2rem; text-align: center; background: #0fa3b1; box-shadow: 0px 1px 50px rgba(100, 100, 100, 0.58); }
 
-.features-header { color: #ffffff; text-shadow: -4px 7px rgba(100, 100, 100, 0.5); font-family: "Open Sans"; font-size: 1.2rem; font-weight: 700; }
+.features-header { color: #ffffff; text-shadow: -4px 7px rgba(100, 100, 100, 0.5); font-size: 1.2rem; font-weight: 700; }
 
-.get-started-text, .features-text { color: #ffffff; font-family: "Open Sans"; font-weight: 400; }
+.get-started-text, .features-text { color: #ffffff;  font-weight: 400; }
 
 /* GET STARTED SECTION */
 .get-started-section { padding: 4rem 0rem; }
@@ -121,7 +121,7 @@ a.hero-cta-btn-outline:hover { background: #c5c4c4; }
 .code-html-comment { color: gray; }
 
 /* FOOTER */
-.footer-section { background: #545454; padding: 2rem 1rem; text-align: center; font-family: "Open Sans"; }
+.footer-section { background: #545454; padding: 2rem 1rem; text-align: center;}
 
 .footer-section a { color: #fff; }
 
